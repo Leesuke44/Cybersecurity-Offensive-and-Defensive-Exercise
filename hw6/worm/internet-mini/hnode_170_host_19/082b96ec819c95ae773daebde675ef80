@@ -1,0 +1,11 @@
+Preference whether to Dissect the UDVM code or not
+# TRUE or FALSE (case-insensitive)
+#sigcomp.display.udvm.code: FALSE
+
+# preference whether to display the bytecode in UDVM operands or not
+# TRUE or FALSE (case-insensitive)
+#sigcomp.display.bytecode: FALSE
+
+# preference whether to decompress message or not
+# TRUE or FALSE (case-insensitive)
+#sigco

@@ -1,0 +1,28 @@
+p.trunkpack_port: 2424
+
+# Position of the capture unit that produced this trace.  This setting affects the way TRANSUM handles TCP Retransmissions.  See the manual for details.
+# One of: Client, Intermediate, Service
+# (case-insensitive).
+#transum.capture_position: Client
+
+# Set this to match to the TCP subdissector reassembly setting
+# TRUE or FALSE (case-insensitive)
+#transum.reassembly: TRUE
+
+# Add and remove ports numbers separated by commas
+# Ranges are supported e.g. 25,80,2000-3000,5432
+# A string denoting an positive integer range (e.g., "1-20,30-40")
+#transum.tcp_port_ranges: 25,80,443,1433
+
+# Add and remove ports numbers separated by commas
+# Ranges are supported e.g. 123,137-139,520-521,2049
+# A string denoting an positive integer range (e.g., "1-20,30-40")
+#transum.udp_port_ranges: 137-139
+
+# Set this to discard any packet in the direction client to service,
+# with a 1-byte payload of 0x00 and the ACK flag set
+# TRUE or FALSE (case-insensitive)
+#transum.orphan_ka_discard: FALSE
+
+# RTE data will be added to the first request packet
+# TRUE or FAL

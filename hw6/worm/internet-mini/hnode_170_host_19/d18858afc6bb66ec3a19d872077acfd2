@@ -1,0 +1,5 @@
+lso enable "Allow subdissectors to reassemble TCP streams" in the TCP protocol settings.
+# TRUE or FALSE (case-insensitive)
+#sasp.desegment_sasp_messages: TRUE
+
+# The source point code (usually MSC) (to determine whether message is uplink or 

@@ -1,0 +1,30 @@
+sensitive)
+#tibia.dissect_game_commands: FALSE
+
+# Whether the Tibia dissector should reassemble packets spanning multiple TCP segments. To use this option, you must also enable "Allow subdissectors to reassemble TCP streams" in the TCP protocol settings.
+# TRUE or FALSE (case-insensitive)
+#tibia.reassemble_tcp_segments: TRUE
+
+# Time display type
+# One of: UTC, Local
+# (case-insensitive).
+#time.display_time_type: Local
+
+# Whether TIPCv1 SEGMENTATION_MANAGER datagrams should be reassembled
+# TRUE or FALSE (case-insensitive)
+#tipc.defragment: TRUE
+
+# Whether to try to dissect TIPC data or not
+# TRUE or FALSE (case-insensitive)
+#tipc.dissect_tipc_data: TRUE
+
+# Try to decode a TIPCv2 packet using an heuristic sub-dissector before using a registered sub-dissector
+# TRUE or FALSE (case-insensitive)
+#tipc.try_heuristic_first: FALSE
+
+# TIPC 1.7 removes/adds fields (not) available in TIPC 1.5/1.6 while keeping the version number 2 in the packages. "ALL" shows all fields that were ever used in both versions.
+# One of: ALL, TIPC 1.5/1.6, TIPC 1.7
+# (case-insensitive).
+#tipc.handle_v2_as: ALL
+
+# Whether th
